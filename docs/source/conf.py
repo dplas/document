@@ -60,7 +60,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'DataPlastic Content Protection'
+project = 'DataPlastic'
 copyright = '2016'
 author = ''
 
