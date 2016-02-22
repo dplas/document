@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-DataPlastic
+DP
 ==========================================================
 .. This is a comment. Note how any initial comments are moved by
    transforms to after the document title, subtitle, and docinfo.
