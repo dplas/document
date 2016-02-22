@@ -60,7 +60,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'DataPlastic'
+project = 'DP'
 copyright = '2016'
 author = ''
 
@@ -215,7 +215,7 @@ html_static_path = ['_static']
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'DataPlasticContentProtectiondoc'
+htmlhelp_basename = 'DPContentProtectiondoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
