@@ -13,24 +13,38 @@ Integrate with Intertrust's ExpressPlay and Secure Key Manager.
  ExpressPlay DRM
 ================================
 
-.. Above is the document title, and below is the subtitle.
-They are transformed from section titles after parsing.
+- A bullet list
+
+  + Nested bullet list.
+  + Nested item 2.
+
+- Item 2.
+
+  Paragraph 2 of item 2.
+
+  * Nested bullet list.
+  * Nested item 2.
+
+    - Third level.
+    - Item 2.
+
+  * Nested item 3.
 
 --------------------------------
  MPEG-DASH
 --------------------------------
 .. Above is the document title, and below is the subtitle.
-They are transformed from section titles after parsing.
+--They are transformed from section titles after parsing.
 --------------------------------
  Apple HLS 
 --------------------------------
 .. Above is the document title, and below is the subtitle.
-They are transformed from section titles after parsing.
+-They are transformed from section titles after parsing.
 --------------------------------
- Progressive Download
+ P-rogressive Download
 --------------------------------
 .. Above is the document title, and below is the subtitle.
-They are transformed from section titles after parsing.
+--They are transformed from section titles after parsing.
 
 ---------
 
