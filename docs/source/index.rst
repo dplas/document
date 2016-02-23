@@ -3,7 +3,7 @@ sphinx-quickstart on Fri Feb 19 12:04:26 2016.
 You can adapt this file completely to your liking, but it should at least
 contain the root `toctree` directive.
 
-DP
+DRM
 ==========================================================
 .. This is a comment. Note how any initial comments are moved by
 transforms to after the document title, subtitle, and docinfo.
@@ -65,7 +65,7 @@ They are transformed from section titles after parsing.
 .. section-numbering::
 
 
-Structural Elements
+Projects
 ===================
 
 Section Title
@@ -82,7 +82,7 @@ Here's a transition:
 
 It divides the section.
 
-Body Elements
+Clients
 =============
 
 Paragraphs
