@@ -9,14 +9,22 @@ DRM
 transforms to after the document title, subtitle, and docinfo.
 
 ================================
- reStructuredText Demonstration
+ ExpressPlay DRM
 ================================
 
 .. Above is the document title, and below is the subtitle.
 They are transformed from section titles after parsing.
 
 --------------------------------
- Examples of Syntax Constructs
+ MPEG-DASH
+--------------------------------
+
+--------------------------------
+ Apple HLS
+--------------------------------
+
+--------------------------------
+ Progressive Download
 --------------------------------
 
 .. bibliographic fields (which also require a transform):
