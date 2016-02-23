@@ -18,7 +18,7 @@ Our DRMCP content authoring workflow approach is tailored to use encrypt-once co
 
 DRM
 ==========================================================
-Depending on the appropriate playback protection use-case, integrate with Intertrust's ExpressPlay and Secure Key Manager or AWS Cloudfront content protection mechanisms.
+Depending on the appropriate playback protection device use-case, integrate with Intertrust's ExpressPlay and Secure Key Manager or AWS Cloudfront content protection mechanisms.
 
 ================================
  ExpressPlay Cloud DRM
@@ -98,8 +98,7 @@ Depending on the appropriate playback protection use-case, integrate with Intert
 ================================
 Bitdash
 
-Projects
-===================
+
 
 Section Title
 -------------
@@ -115,8 +114,7 @@ Here's a transition:
 
 It divides the section.
 
-Clients
-=============
+
 
 Paragraphs
 ----------
@@ -593,7 +591,7 @@ section, "Docutils System Messages":
 About Document
 ==========================================================
 
-This document system dynamically builds content markup based on GitHub commits. 
+This document system dynamically builds content markup based on GitHub commits. Each content commit fires an event that dynamically builds the web content, unattended.
 
 .. bibliographic fields (which also require a transform):
 
