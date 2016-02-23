@@ -24,6 +24,7 @@ Integrate with Intertrust's ExpressPlay and Secure Key Manager.
   
 
 - Apple HLS
+  
   + Protected with FairPLay Streaming DRM (FPS)
 
   Paragraph 2 of item 2.
