@@ -3,7 +3,9 @@
 .. You can adapt this file completely to your liking, but it should at least
 .. contain the root `toctree` directive.
 
-DataPlastic is an IPTV advisory and integration consultancy based in Bondi, Sydney, providing highly specialized online video content protection and secured distribution professional services.
+We design for DRM & Content Protection (DRMCP) plug-in free playback solutions using HTML5 rendered encrypted video.Our DRMcp content authoring workflow approach is tailored to encrypt-once common encryption (CENC) using HTML5 EME and CDM to manage end-user playback.
+
+
 
 .. contents:: Table of Contents
 .. section-numbering::
@@ -12,7 +14,7 @@ DataPlastic is an IPTV advisory and integration consultancy based in Bondi, Sydn
 
 DRM
 ==========================================================
-Integrate with Intertrust's ExpressPlay and Secure Key Manager.
+Depending on the appropriate playback protection use-case, integrate with Intertrust's ExpressPlay and Secure Key Manager or AWS Cloudfront content protection mechanisms.
 
 ================================
  ExpressPlay Cloud DRM
