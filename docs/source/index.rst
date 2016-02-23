@@ -6,6 +6,8 @@
 DataPlastic is an IPTV advisory and integration consultancy based in Bondi, Sydney, providing highly specialized online video content protection and secured distribution professional services.
 
 .. contents:: Table of Contents
+.. section-numbering::
+
 
 
 DRM
@@ -588,8 +590,7 @@ targets, directives, or substitution definitions.
 
 (View the HTML source to see the comment.)
 
-Error Handling
-==============
+
 
 Any errors caught during processing will generate system messages.
 
