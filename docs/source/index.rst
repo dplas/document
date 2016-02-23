@@ -24,6 +24,8 @@ Depending on the appropriate playback protection device use-case, integrate with
  ExpressPlay Cloud DRM
 ================================
 
+Secure, cloud-based content protection system from the inventor of DRM.
+
 - MPEG-DASH
 
   + Protected with Widevine Modular, Microsoft PlayReady, and Marlin DRM
@@ -88,6 +90,9 @@ Depending on the appropriate playback protection device use-case, integrate with
 ================================
  ExpressPlay Cloud Secure Key Manager (SKM)
 ================================
+
+The purpose of the SKM API is to provide a very simple interface for software and services that need a simple and convenient way to store and/or retrieve cryptographic keys. This includes content packagers, head-end scramblers, DRM license servers, etc.
+ExpressPlay offers an optional secure online storage service for your content keys * at no additional charge *. The ExpressPlay Key Storage Service uses the Simple Key Management (SKM) API, a simple REST API that allows you to push/pull content keys to/from ExpressPlay. 
 
 ================================
  Amazon AWS Cloudfront Private Distributions
