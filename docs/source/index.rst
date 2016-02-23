@@ -2,8 +2,12 @@
 .. sphinx-quickstart on Fri Feb 19 12:04:26 2016.
 .. You can adapt this file completely to your liking, but it should at least
 .. contain the root `toctree` directive.
+.. Widevine Modular DRM native in Google Chrome 35+, Opera (31+), Android 4.3+.
+.. PlayReady DRM native in Internet Explorer (11+ on Windows 8.1+), Microsoft Edge (Windows 10+), Windows Phone (8.1+), Microsoft Surface.
+.. FairPlay Streaming DRM native in iOS, Safari on OSX, AppleTV. Supports AirPlay.
 
-We design for DRM & Content Protection (DRMCP) plug-in free playback solutions using HTML5 rendered encrypted video.Our DRMcp content authoring workflow approach is tailored to encrypt-once common encryption (CENC) using HTML5 EME and CDM to manage end-user playback.
+We design for DRM & Content Protection (DRMCP) plug-in free playback solutions using HTML5 rendered encrypted video.
+Our DRMCP content authoring workflow approach is tailored to use encrypt-once common encryption (CENC) using HTML5 EME and CDM to manage end-user playback.
 
 
 
@@ -22,13 +26,18 @@ Depending on the appropriate playback protection use-case, integrate with Intert
 
 - MPEG-DASH
 
-  + Protected with Widevine Modular, Microsoft PlayReady, Marlin DRM
-  
+  + Protected with Widevine Modular, Microsoft PlayReady, and Marlin DRM
+  * Native Browser Support
+
+    - Google Chrome 35.
+    - Opera (31+)
+    - Android 4.3+
 
 - Apple HLS
   
   + Protected with FairPlay Streaming DRM (FPS)
   + Apple FairPlay Streaming (FPS) securely delivers keys to Apple mobile devices, Apple TV, and Safari on OS X, which will enable playback of encrypted video content. This content is delivered over the Web using HTTP Live Streaming (HLS) technology.
+  + Starting with iOS 9.0, FPS supports time-sensitive content keys.
 
 ---------
   Paragraph 2 of item 2.
@@ -572,6 +581,7 @@ section, "Docutils System Messages":
 About Document
 ==========================================================
 
+This document system dynamically builds content markup based on GitHub commits. 
 
 .. bibliographic fields (which also require a transform):
 
