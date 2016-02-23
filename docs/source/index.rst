@@ -34,17 +34,23 @@ Integrate with Intertrust's ExpressPlay and Secure Key Manager.
  MPEG-DASH
 --------------------------------
 .. Above is the document title, and below is the subtitle.
---They are transformed from section titles after parsing.
+.. They are transformed from section titles after parsing.
+- A bullet list
+
+  + Nested bullet list.
+  + Nested item 2.
+
+- Item 2.
 --------------------------------
  Apple HLS 
 --------------------------------
 .. Above is the document title, and below is the subtitle.
--They are transformed from section titles after parsing.
+.. They are transformed from section titles after parsing.
 --------------------------------
- P-rogressive Download
+ Progressive Download
 --------------------------------
 .. Above is the document title, and below is the subtitle.
---They are transformed from section titles after parsing.
+..They are transformed from section titles after parsing.
 
 ---------
 
