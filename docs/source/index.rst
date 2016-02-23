@@ -68,9 +68,12 @@ Integrate with Intertrust's ExpressPlay and Secure Key Manager.
 ---------
 
 ================================
- ExpressPlay Cloud Secure Key Manager Service
+ ExpressPlay Cloud Secure Key Manager (SKM)
 ================================
 
+================================
+ Amazon AWS Cloudfront Private Distributions
+================================
 
 Projects
 ===================
