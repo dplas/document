@@ -13,10 +13,10 @@ Integrate with Intertrust's ExpressPlay and Secure Key Manager.
  ExpressPlay DRM
 ================================
 
-- A bullet list
+- DRMS
 
-  + Nested bullet list.
-  + Nested item 2.
+  + WIdevine Modular, Microsoft PlayReady, Marlin
+  + Content format: MPEG-DASH.
 
 - Item 2.
 
@@ -46,8 +46,8 @@ Integrate with Intertrust's ExpressPlay and Secure Key Manager.
 --------------------------------
 .. Above is the document title, and below is the subtitle.
 .. They are transformed from section titles after parsing.
-Admonitions
-```````````
+
+
 
 .. Attention:: Directives at large.
 --------------------------------
