@@ -25,8 +25,12 @@ Integrate with Intertrust's ExpressPlay and Secure Key Manager.
 
 - Apple HLS
   
-  + Protected with FairPLay Streaming DRM (FPS)
+  + Protected with FairPlay Streaming DRM (FPS)
+  + Apple FairPlay Streaming (FPS) securely delivers keys to Apple mobile devices, Apple TV, and Safari on OS X,
+which will enable playback of encrypted video content. This content is delivered over the Web using HTTP
+Live Streaming (HLS) technology.
 
+---------
   Paragraph 2 of item 2.
 
   * Nested bullet list.
