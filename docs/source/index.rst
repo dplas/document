@@ -27,11 +27,18 @@ Depending on the appropriate playback protection use-case, integrate with Intert
 - MPEG-DASH
 
   + Protected with Widevine Modular, Microsoft PlayReady, and Marlin DRM
-  * Native Browser Support
+  * Native Widevine Browser Support
 
-    - Google Chrome 35.
+    - Google Chrome 35+
     - Opera (31+)
     - Android 4.3+
+    
+  * Native PlayReady Browser Support
+
+    - Internet Explorer (11+ on Windows 8.1+)
+    - Microsoft Edge (Windows 10+)
+    - Windows Phone (8.1+)
+    - Microsoft Surface
 
 - Apple HLS
   
