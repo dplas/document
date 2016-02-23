@@ -22,7 +22,7 @@ They are transformed from section titles after parsing.
 .. Above is the document title, and below is the subtitle.
 They are transformed from section titles after parsing.
 --------------------------------
- Apple HLS
+ Apple HLS 
 --------------------------------
 .. Above is the document title, and below is the subtitle.
 They are transformed from section titles after parsing.
