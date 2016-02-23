@@ -15,7 +15,7 @@ DRM
 Integrate with Intertrust's ExpressPlay and Secure Key Manager.
 
 ================================
- ExpressPlay DRM
+ ExpressPlay Cloud DRM
 ================================
 
 - MPEG-DASH
@@ -67,7 +67,9 @@ Integrate with Intertrust's ExpressPlay and Secure Key Manager.
 
 ---------
 
-
+================================
+ ExpressPlay Cloud Secure Key Manager Service
+================================
 
 
 Projects
