@@ -18,12 +18,13 @@ Integrate with Intertrust's ExpressPlay and Secure Key Manager.
  ExpressPlay DRM
 ================================
 
-- DRMS
+- MPEG-DASH
 
-  + WIdevine Modular, Microsoft PlayReady, Marlin
-  + Content format: MPEG-DASH.
+  + Protected with Widevine Modular, Microsoft PlayReady, Marlin DRM
+  
 
-- Item 2.
+- Apple HLS
+  + Protected with FairPLay Streaming DRM (FPS)
 
   Paragraph 2 of item 2.
 
