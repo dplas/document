@@ -26,9 +26,7 @@ Integrate with Intertrust's ExpressPlay and Secure Key Manager.
 - Apple HLS
   
   + Protected with FairPlay Streaming DRM (FPS)
-  + Apple FairPlay Streaming (FPS) securely delivers keys to Apple mobile devices, Apple TV, and Safari on OS X,
-which will enable playback of encrypted video content. This content is delivered over the Web using HTTP
-Live Streaming (HLS) technology.
+  + Apple FairPlay Streaming (FPS) securely delivers keys to Apple mobile devices, Apple TV, and Safari on OS X, which will enable playback of encrypted video content. This content is delivered over the Web using HTTP Live Streaming (HLS) technology.
 
 ---------
   Paragraph 2 of item 2.
@@ -68,49 +66,6 @@ Live Streaming (HLS) technology.
 ..They are transformed from section titles after parsing.
 
 ---------
-
-
-.. bibliographic fields (which also require a transform):
-
-:Author:
-:Address: 123 Example Street
-          Example, EX  Canada
-          A1B 2C3
-:Contact: docutils-develop@lists.sourceforge.net
-:Authors: Me; Myself; I
-:organization: humankind
-:date: $Date: 2012-01-03 19:23:53 +0000 (Tue, 03 Jan 2012) $
-:status: This is a "work in progress"
-:revision: $Revision: 7302 $
-:version: 1
-:copyright: This document has been placed in the public domain. You
-                may do with it as you wish. You may copy, modify,
-                redistribute, reattribute, sell, buy, rent, lease,
-                destroy, or improve it, quote it at length, excerpt,
-                incorporate, collate, fold, staple, or mutilate it, or do
-                anything else to it that your or anyone else's heart
-                desires.
-:field name: This is a generic bibliographic field.
-:field name 2:
-        Generic bibliographic fields may contain multiple body elements.
-
-        Like this.
-
-:Dedication:
-
-        For Docutils users & co-developers.
-
-:abstract:
-
-        This document is a demonstration of the reStructuredText markup
-        language, containing examples of all basic reStructuredText
-        constructs and many advanced constructs.
-
-.. meta::
-:keywords: reStructuredText, demonstration, demo, parser
-   :description lang=en: A demonstration of the reStructuredText
-           markup language, containing examples of all basic
-           constructs and many advanced constructs.
 
 
 
@@ -606,3 +561,51 @@ There should be six messages in the following, auto-generated
 section, "Docutils System Messages":
 
 .. section should be added by Docutils automatically
+
+About Document
+==========================================================
+
+
+.. bibliographic fields (which also require a transform):
+
+:Author:
+:Address: 123 Example Street
+          Example, EX  Canada
+          A1B 2C3
+:Contact: docutils-develop@lists.sourceforge.net
+:Authors: Me; Myself; I
+:organization: humankind
+:date: $Date: 2012-01-03 19:23:53 +0000 (Tue, 03 Jan 2012) $
+:status: This is a "work in progress"
+:revision: $Revision: 7302 $
+:version: 1
+:copyright: This document has been placed in the public domain. You
+                may do with it as you wish. You may copy, modify,
+                redistribute, reattribute, sell, buy, rent, lease,
+                destroy, or improve it, quote it at length, excerpt,
+                incorporate, collate, fold, staple, or mutilate it, or do
+                anything else to it that your or anyone else's heart
+                desires.
+:field name: This is a generic bibliographic field.
+:field name 2:
+        Generic bibliographic fields may contain multiple body elements.
+
+        Like this.
+
+:Dedication:
+
+        For Docutils users & co-developers.
+
+:abstract:
+
+        This document is a demonstration of the reStructuredText markup
+        language, containing examples of all basic reStructuredText
+        constructs and many advanced constructs.
+
+.. meta::
+:keywords: reStructuredText, demonstration, demo, parser
+   :description lang=en: A demonstration of the reStructuredText
+           markup language, containing examples of all basic
+           constructs and many advanced constructs.
+
+
