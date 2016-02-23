@@ -5,6 +5,9 @@
 
 DataPlastic is an IPTV advisory and integration consultancy based in Bondi, Sydney, providing highly specialized online video content protection and secured distribution professional services.
 
+.. contents:: Table of Contents
+
+
 DRM
 ==========================================================
 Integrate with Intertrust's ExpressPlay and Secure Key Manager.
@@ -101,8 +104,7 @@ Integrate with Intertrust's ExpressPlay and Secure Key Manager.
            markup language, containing examples of all basic
            constructs and many advanced constructs.
 
-.. contents:: Table of Contents
-.. section-numbering::
+
 
 
 Projects
