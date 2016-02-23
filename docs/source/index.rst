@@ -93,6 +93,11 @@ Depending on the appropriate playback protection use-case, integrate with Intert
  Amazon AWS Cloudfront Private Distributions
 ================================
 
+================================
+ HTML5 Player
+================================
+Bitdash
+
 Projects
 ===================
 
