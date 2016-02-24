@@ -24,7 +24,8 @@ Depending on the appropriate playback protection device use-case, integrate with
  ExpressPlay Cloud DRM
 ================================
 
-Secure, cloud-based content protection system from the inventor of DRM.
+Secure, cloud-based content protection system from the inventor of DRM. Provide single API access for multi-DRM support.
+ExpressPlay is a cloud-based DRM service provider for content protection across most consumer-used devices. Enable your online media service with robust rights management without the need for any new infrastructure or setup cost.
 
 - MPEG-DASH
 
@@ -103,7 +104,9 @@ ExpressPlay offers an optional secure online storage service for your content ke
 ================================
 Bitdash
 
-
+================================
+ Browser @ OS Market Share Jan 2016
+================================
 
 Section Title
 -------------
