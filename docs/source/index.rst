@@ -107,7 +107,10 @@ Bitdash
 ================================
  Browser @ OS Market Share Jan 2016
 ================================
-.. _hyperlink https://www.dataplastic.com/index.php?cID=191
+Inline Markup
+---------------
+(`Stats web site <https://www.dataplastic.com/index.php?cID=191>`__)
+
 
 ------------------------------------------
 Section Title
