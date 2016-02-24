@@ -109,7 +109,7 @@ Bitdash
 ================================
 Inline Markup
 ---------------
-(`Stats web site <https://www.dataplastic.com/index.php?cID=191>`__)
+
 
 
 ------------------------------------------
