@@ -29,9 +29,12 @@ For Adobe Primteime DRM (Firefox 43+ CDM support), the Bento4 CENC packager supp
 
 Secure, cloud-based content protection system from the inventor of DRM. Provide single API access for multi-DRM support.
 ExpressPlay is a cloud-based DRM service provider for content protection across most consumer-used devices. Enable your online media service with robust rights management without the need for any new infrastructure or setup cost.
+Paragraphs
+----------
+
+A paragraph.
 
 Inline Markup
-`````````````
 ** Desktop Native DRM support **
 
 - MPEG-DASH
