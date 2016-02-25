@@ -87,20 +87,20 @@ The following adaptive bit rate streams are supported by a single HTML5 Javascri
 
  + Provides single-encryption workflow for playback on
 
-- Desktops
-- Android 4.3+
-- Windows Phone
-- Chromecast
-- Android TV
-- Google TV
-- Roku
-- Amazon Fire TV
-- Samsung Smart TV & Tizen TV
-- Smart TV Alliance (LG, Philips, Toshiba, Panasonic) 
-- TNT (2.0+) Specification
-- HbbTV (1.5+) Specification
-- Xbox One / 360
-- PlayStation 3 / 4
+  - Desktops
+  - Android 4.3+
+  - Windows Phone
+  - Chromecast
+  - Android TV
+  - Google TV
+  - Roku
+  - Amazon Fire TV
+  - Samsung Smart TV & Tizen TV
+  - Smart TV Alliance (LG, Philips, Toshiba, Panasonic) 
+  - TNT (2.0+) Specification
+  - HbbTV (1.5+) Specification
+  - Xbox One / 360
+  - PlayStation 3 / 4
 
 
 --------------------------------
