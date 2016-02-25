@@ -85,7 +85,7 @@ The following adaptive bit rate streams are supported by a single HTML5 Javascri
 .. They are transformed from section titles after parsing.
 - Create a PlayReady, Widevine, Primetime and Marlin CENC encrypted MPEG-DASH manifest and files using Bento4 packager. 
 
- + Provides single-encryption workflow for playback on
+- Provides single-encryption workflow for playback on:
 
   - Desktops
   - Android 4.3+
