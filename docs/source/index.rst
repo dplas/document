@@ -122,6 +122,9 @@ ExpressPlay provides secure online storage service for your content cryptographi
  Amazon AWS Cloudfront Private Distributions
 ================================
 Once DRM-enabled DASH and HLS packages are complete, upload to Amazon S3.  
+- The S3 bucket is configured with restricted access, limited to CloudFront Origin Access Identity and Authorized AWS User.
+- CORS is configured restricting access to your player's domain.
+- AWS CloudFront (CF) is configured for Web delivery, (optional) CNAME and SSL SNI, S3 bucket restrictions and Origin Access Identity, Cache Behaviour policies and Geo restriction policies.  
 
 ================================
  HTML5 Player
