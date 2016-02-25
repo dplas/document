@@ -83,25 +83,16 @@ The following adaptive bit rate streams are supported by a single HTML5 Javascri
 --------------------------------
 .. Above is the document title, and below is the subtitle.
 .. They are transformed from section titles after parsing.
-- Create a PlayReady, Widevine and Marlin CENC encrypted MPEG-DASH manifest using Bento4 packager.
+- Create a PlayReady, Widevine, Primetime and Marlin CENC encrypted MPEG-DASH manifest and files using Bento4 packager.
 
-- Fragment all the MP4 video renditions to be packed into DASH.
-- In the packaging script, the sequence is as follows..
-  + Generates a unique Encryption Key (EK).
-  + Creates a new key SKM object, passing ContentID in API request.
-  + Consumes the API response KID, .
-  
 
-- Item 2.
 --------------------------------
  Apple HLS 
 --------------------------------
 .. Above is the document title, and below is the subtitle.
 .. They are transformed from section titles after parsing.
-Create FairPlay (SAMPLE-AES) encrypted HLS using Bento4.
+Create FairPlay (SAMPLE-AES) encrypted HLS manifest and using Bento4 for Safari HTML5 on Mac OSX, IOS apps, and Apple TV apps.
 
-
-.. Attention:: Directives at large.
 --------------------------------
  Progressive Download
 --------------------------------
