@@ -113,19 +113,22 @@ The following adaptive bit rate streams are supported by a single HTML5 Javascri
 
 
 ================================
- ExpressPlay Cloud Secure Key Manager (SKM)
+ ExpressPlay Cloud Secure Key Manager 
 ================================
 
-The purpose of the SKM API is to provide a very simple interface for software and services that need a simple and convenient way to store and/or retrieve cryptographic keys. This includes content packagers, head-end scramblers, DRM license servers, etc.
-ExpressPlay offers an optional secure online storage service for your content keys * at no additional charge *. The ExpressPlay Key Storage Service uses the Simple Key Management (SKM) API, a simple REST API that allows you to push/pull content keys to/from ExpressPlay. 
+ExpressPlay provides secure online storage service for your content cryptographic keys * at no additional charge *. The ExpressPlay Key Storage Service uses the Simple Key Management (SKM) REST API, that allows the packager and adaptive player to push/pull content keys to/from ExpressPlay. 
 
 ================================
  Amazon AWS Cloudfront Private Distributions
 ================================
-
+Once DRM-enabled DASH and HLS packages are complete, upload to Amazon S3.  
 ================================
  HTML5 Player
 ================================
-Bitdash HTML5 Javascript Player version 4+
+Bitdash HTML5 Javascript Player version 4+.
+
+Bitdash enables HTML5 adaptive streaming with MPEG-DASH native in your browser with no need for plugins like Flash or Silverlight. Due to the native integration with the browser it is possible to play back very high resolutions such as 4K or very high framerates like 60fps.
+
+Encrypted HTML5 based adaptive streaming with MPEG-DASH native in your browser without plugins. Multiple DRM systems, e.g., PlayReady and Widevine can be used in parallel through MPEG Common Encryption (MPEG-CENC). Google Chrome is currently removing Silverlight, so PlayReady will not be supported anymore. bitdash provides a solution with MPEG-CENC your content will be encrypted once and can be used with different DRM systems in parallel.
 
 
