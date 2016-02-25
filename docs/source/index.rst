@@ -6,7 +6,8 @@
 .. PlayReady DRM native in Internet Explorer (11+ on Windows 8.1+), Microsoft Edge (Windows 10+), Windows Phone (8.1+), Microsoft Surface.
 .. FairPlay Streaming DRM native in iOS, Safari on OSX, AppleTV. Supports AirPlay.
 
-We design for DRM & Content Protection (DRMCP) plug-in free playback solutions using HTML5 rendered encrypted video.
+We design for DRM & Content Protection (DRMCP) plug-in free playback solutions using desktop and mobile HTML5 rendered multi-DRM encrypted video.
+
 Our DRMCP content authoring workflow approach is tailored to use encrypt-once common encryption (CENC) using HTML5 EME and CDM to manage end-user playback.
 
 
@@ -20,6 +21,8 @@ DRM
 ==========================================================
 Depending on the appropriate playback protection device use-case, integrate with Intertrust's ExpressPlay and Secure Key Manager or AWS Cloudfront content protection mechanisms.
 
+For Adobe Primteime DRM (Firefox 43+ CDM support), the Bento4 CENC packager supports Primetime encryption for DASH, however ExpressPlay does not support Primetime DRM at this time.  
+
 ================================
  ExpressPlay Cloud DRM
 ================================
@@ -29,46 +32,57 @@ ExpressPlay is a cloud-based DRM service provider for content protection across 
 
 - MPEG-DASH
 
-  + Protected with Widevine Modular, Microsoft PlayReady, and Marlin DRM
-  * Native Widevine Browser Support
+  + Protected with Widevine Modular, Microsoft PlayReady, Fairplay, and Marlin DRM
+  * Native Google Widevine HTML5 MSE Browser Support
 
     - Google Chrome 35+
     - Opera (31+)
     - Android 4.3+
+   
     
-  * Native PlayReady Browser Support
+  * Native Microsoft PlayReady HTML5 MSE Browser Support
 
     - Internet Explorer (11+ on Windows 8.1+)
-    - Microsoft Edge (Windows 10+)
-    - Windows Phone (8.1+)
-    - Microsoft Surface
+    - Microsoft Edge (Windows 10+) 
+ 
+   
+  * Native Apple FairPlay HTML5 MSE Browser Support
 
+    - Safari 8+ on Mac OSX.
+    
+   * Native Adobe Primetime HTML5 MSE Browser Support
+
+    - Firefox (38+) on Windows
+    
 - Apple HLS
   
-  + Protected with FairPlay Streaming DRM (FPS)
-  + Apple FairPlay Streaming (FPS) securely delivers keys to Apple mobile devices, Apple TV, and Safari on OS X, which will enable playback of encrypted video content. This content is delivered over the Web using HTTP Live Streaming (HLS) technology.
-  + Starting with iOS 9.0, FPS supports time-sensitive content keys.
+  * Native PlayReady HTML5 Browser Support
+   - Microsoft Edge (Windows 10+) 
+   
+   * Native Widevine HTML5 Browser Support
+   - Android 4.3+ 
+   
+   * Native FairPlay Streaming Support
+   - iOS 9.0+, supporting time-sensitive keys
+   - Apple TV
+   
 
 ---------
-  Paragraph 2 of item 2.
 
-  * Nested bullet list.
-  * Nested item 2.
-
-    - Third level.
-    - Item 2.
-
-  * Nested item 3.
 
 --------------------------------
  MPEG-DASH
 --------------------------------
 .. Above is the document title, and below is the subtitle.
 .. They are transformed from section titles after parsing.
-- A bullet list
+- Create a PlayReady, Widevine and Marlin CENC encrypted MPEG-DASH manifest using Bento4 packager.
 
-  + Nested bullet list.
-  + Nested item 2.
+- Fragment all the MP4 video renditions to be packed into DASH.
+- In the packaging script, the sequence is as follows..
+  + Generates a unique Encryption Key (EK).
+  + Creates a new key SKM object, passing ContentID in API request.
+  + Consumes the API response KID, .
+  
 
 - Item 2.
 --------------------------------
@@ -76,7 +90,7 @@ ExpressPlay is a cloud-based DRM service provider for content protection across 
 --------------------------------
 .. Above is the document title, and below is the subtitle.
 .. They are transformed from section titles after parsing.
-
+Create FairPlay (SAMPLE-AES) encrypted HLS using Bento4.
 
 
 .. Attention:: Directives at large.
