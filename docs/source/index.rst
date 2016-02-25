@@ -86,22 +86,6 @@ The following adaptive bit rate streams are supported by a single HTML5 Javascri
 .. They are transformed from section titles after parsing.
 - Create a PlayReady, Widevine, Primetime and Marlin CENC encrypted MPEG-DASH manifest and files using Bento4 packager. 
 
-- Provides single-encryption workflow for playback on:
-
-  - Desktops
-  - Android 4.3+
-  - Windows Phone
-  - Chromecast
-  - Android TV
-  - Google TV
-  - Roku
-  - Amazon Fire TV
-  - Samsung Smart TV & Tizen TV
-  - Smart TV Alliance (LG, Philips, Toshiba, Panasonic) 
-  - TNT (2.0+) Specification
-  - HbbTV (1.5+) Specification
-  - Xbox One / 360
-  - PlayStation 3 / 4
 
 
 --------------------------------
