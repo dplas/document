@@ -57,14 +57,14 @@ ExpressPlay is a cloud-based DRM service provider for content protection across 
 - Apple HLS
   
   * Native PlayReady HTML5 Browser Support
-   - Microsoft Edge (Windows 10+) 
+    - Microsoft Edge (Windows 10+) 
    
   * Native Widevine HTML5 Browser Support
-   - Android 4.3+ 
+    - Android 4.3+ 
    
   * Native FairPlay App Streaming Support
-   - iOS 9.0+, supporting time-sensitive keys
-   - Apple TV
+    - iOS 9.0+, supporting time-sensitive keys
+    - Apple TV
    
 
 ---------
