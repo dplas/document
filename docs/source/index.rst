@@ -55,7 +55,7 @@ The following adaptive bit rate streams are supported by a single HTML5 Javascri
 
     - Safari 8+ on Mac OSX.
     
-  * Native Adobe Primetime HTML5 MSE Browser Support
+  * Native Adobe Primetime HTML5 MSE Browser Support [Coming Soon]
 
     - Firefox (38+) on Windows
     
