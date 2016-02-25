@@ -60,9 +60,9 @@ The following adaptive bit rate streams are supported by a single HTML5 Javascri
     
 - DESKTOP HLS
 
-  + Protected with PlayReady and Widevine
+  + Protected with AES-128 encryption and Widevine DRM
   
-  * Native PlayReady HTML5 Browser Support
+  * Native AES HTML5 Browser Support
 
     - Microsoft Edge (Windows 10+) 
   
