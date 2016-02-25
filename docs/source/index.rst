@@ -110,13 +110,7 @@ The following adaptive bit rate streams are supported by a single HTML5 Javascri
 .. They are transformed from section titles after parsing.
 - Create FairPlay (SAMPLE-AES) encrypted HLS manifest and files using Bento4 for playback with Safari HTML5 on Mac OSX, iOS apps, and Apple TV apps.
 
---------------------------------
- Progressive Download
---------------------------------
-.. Above is the document title, and below is the subtitle.
-..They are transformed from section titles after parsing.
 
----------
 
 ================================
  ExpressPlay Cloud Secure Key Manager (SKM)
