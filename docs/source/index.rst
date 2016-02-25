@@ -21,7 +21,7 @@ DRM
 ==========================================================
 Depending on the appropriate playback protection device use-case, integrate with Intertrust's ExpressPlay and Secure Key Manager or AWS Cloudfront content protection mechanisms.
 
-For Adobe Primteime DRM (Firefox 43+ CDM support), the Bento4 CENC packager supports Primetime encryption for DASH, however ExpressPlay does not support Primetime DRM at this time.  
+For Adobe Primteime DRM (Firefox 43+ CDM support), the Bento4 CENC packager supports Primetime encryption for DASH, however neither the Bidah player nor ExpressPlay support Primetime DRM at this time (in development).  
 
 ================================
  ExpressPlay Cloud DRM
@@ -29,6 +29,10 @@ For Adobe Primteime DRM (Firefox 43+ CDM support), the Bento4 CENC packager supp
 
 Secure, cloud-based content protection system from the inventor of DRM. Provide single API access for multi-DRM support.
 ExpressPlay is a cloud-based DRM service provider for content protection across most consumer-used devices. Enable your online media service with robust rights management without the need for any new infrastructure or setup cost.
+
+Inline Markup
+`````````````
+** Desktop Native DRM support **
 
 - MPEG-DASH
 
@@ -58,21 +62,16 @@ ExpressPlay is a cloud-based DRM service provider for content protection across 
 
   + Protected with Apple Fairplay, and AES
   
-  * Native AES-128 HLS HTML5 HLS Browser Support
+  * Native PlayReady HTML5 Browser Support
 
     - Microsoft Edge (Windows 10+) 
   
    
     
-  * Native Widevine HTML5 HLS Browser Support
+  * Native Widevine HTML5 Browser Support
 
 
     - Android 4.3+ 
-
-  * Fairplay App Support
-
-
-    - iOS 6+ 
  
 
 
