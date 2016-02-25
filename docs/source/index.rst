@@ -17,6 +17,7 @@ Our DRMCP content authoring workflow approach is tailored to use encrypt-once co
 
 ---------
 
+
 DRM
 ==========================================================
 Depending on the appropriate playback protection device use-case, integrate with Intertrust's ExpressPlay and Secure Key Manager or AWS Cloudfront content protection mechanisms.
