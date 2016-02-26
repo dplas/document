@@ -135,7 +135,7 @@ The following player code snippet is representative of the rights managed data d
             
             hls                     : <m3u8 URI>,
             
-            progressive             :  <MP4 URI>?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zZWN1cmUuZGF0YXBsYXN0aWMuY29tL1RPU0RBU0gvbXA0L1RvU18zNjBwLm1wNCIsIkNvbmRpdGlvbiI6eyJJcEFkZHJlc3MiOnsiQVdTOlNvdXJjZUlwIjoiMTE1LjE4Ny4yMzYuMTcwLzEifSwiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE0NTY0ODE4MjZ9fX1dfQ==&Signature=kQfYiRNkk5U0Unx8QEDRk2wvUWRschkJcLZGq6g0adL5YnIV9wVyadwf2GhpIna85V3M8Td246eErET6SqkRN6C7koc8ChvHGNhxQCZ7KxwOWW9~fi7d82wppNVKIOHaxqZvTatqXdaHheQ7TS92qgaD4iAnA7lASela9gDKjxvoGLBUeQDLtTVYuXY3Ps2XG4TTNRSC1wtZSZqRnAuuo60AcEX9SuAlhzRcUWODZ4t58qggfqlK-0-yFCqj2rSi8SXukB3oO5N6WtunUdpqfZlstRTJ9tX6k9xVjGLomjEclIu03wdJ4IrbONkSh9lS~V7QNjtgZtv69tYHvxusrg__&Key-Pair-Id=9999999999, 
+            progressive             : <MP4 URI>?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zZWN1cmUuZGF0YXBsYXN0aWMuY29tL1RPU0RBU0gvbXA0L1RvU18zNjBwLm1wNCIsIkNvbmRpdGlvbiI6eyJJcEFkZHJlc3MiOnsiQVdTOlNvdXJjZUlwIjoiMTE1LjE4Ny4yMzYuMTcwLzEifSwiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE0NTY0ODE4MjZ9fX1dfQ==&Signature=kQfYiRNkk5U0Unx8QEDRk2wvUWRschkJcLZGq6g0adL5YnIV9wVyadwf2GhpIna85V3M8Td246eErET6SqkRN6C7koc8ChvHGNhxQCZ7KxwOWW9~fi7d82wppNVKIOHaxqZvTatqXdaHheQ7TS92qgaD4iAnA7lASela9gDKjxvoGLBUeQDLtTVYuXY3Ps2XG4TTNRSC1wtZSZqRnAuuo60AcEX9SuAlhzRcUWODZ4t58qggfqlK-0-yFCqj2rSi8SXukB3oO5N6WtunUdpqfZlstRTJ9tX6k9xVjGLomjEclIu03wdJ4IrbONkSh9lS~V7QNjtgZtv69tYHvxusrg__&Key-Pair-Id=9999999999, 
                 type: video/mp4
             
 
