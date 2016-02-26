@@ -130,7 +130,7 @@ The following player code snippet is representative of the rights managed data d
 
 .. compound::
 
- source: 
+ source: {
             dash                    : <MPD URI>,
             
             hls                     : <m3u8 URI>,
@@ -141,12 +141,9 @@ The following player code snippet is representative of the rights managed data d
             
 
 
-widevine              : 
+widevine or playready             : {
 
                     LA_URL              : <ExpressPlay Token URI>/?ExpressPlayToken=AQAAAAbTKGIAAABQK2Nll44xo95DwyFp9Rcb1snIRwiJaLINE4WSg-Je1MaSMRF6QIx2lV_bPX5qY77Hu2V5xaWYL-SqBuZyR93TKW6tf1piINl2zVryFdAL0ZfJIGjepZb1kTFb6oEB0YDpGgVFGA
-                
-                
-                playready             : 
-                    LA_URL              :  <ExpressPlay Token URI>?ExpressPlayToken=AQAAAAZDXlsAAABgVkPJZcXO8LBv6DNNl1bCfxSwYRfdlmAkQ2z-G867_OXmE4VJwKq4d6EWcK_6DMRCXL8pRB0vAW9MiCTczw0Y-f92r1jcxdA7Hvhm6zGlASPMPs-gRvfbGLUIxDqFvBLTmknNmZbAsMDfKaL8Go2cdwZeEz0
-
+                },
+ 
 
