@@ -97,9 +97,9 @@ The following adaptive bit rate streams are supported by a single HTML5 Javascri
 
 
 
-================================
+--------------------------------
  ExpressPlay Cloud Simple Key Manager (SKM)
-================================
+--------------------------------
 
 ExpressPlay provides secure online storage service for your content cryptographic keys * at no additional charge *. The ExpressPlay Key Storage Service uses the Simple Key Management (SKM) REST API, that allows the packager and adaptive player to push/pull content keys to/from ExpressPlay. 
 
@@ -107,9 +107,9 @@ Each DASH or HLS packaging process requests the creation of new SKM Key Object p
 
 
 
-================================
+--------------------------------
  Amazon AWS Cloudfront Private Distributions
-================================
+--------------------------------
 - Once DRM-enabled DASH and HLS packages are complete, upload to Amazon S3 for AWS CloudFront distribution.  
 
   - The S3 bucket is configured with restricted access, limited to CloudFront Origin Access Identity and Authorized AWS User.
