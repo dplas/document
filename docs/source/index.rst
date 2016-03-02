@@ -138,10 +138,12 @@ Support for a wide range of codecs, including H.264 (AVC), H.265 (HEVC), AAC, AC
  II.	Convert MP4 files to an HLS (HTTP Live Streaming) presentation, including the generation of the segments and .m3u8 playlist as well as AES-128 and SAMPLE-AES (for Fairplay DRM) encryption.
 
 Encryption
+
 Prior to adaptive presentation generation, the packager requests a new Key Object from ExpressPlay SKM API that creates unique cryptographic keys in the cloud for use in the packaging for each adaptive asset presentation. 
 The fragmented MP4 files are then converted to DASH and HLS presentations, encrypted with Common Encryption mode (CENC). Widevine, PlayReady and Marlin encryption keys are embedded in DASH manifests, and FairPlay DRM in HLS manifests. 
 
 Amazon S3 (origin) upload
+
 We transfer encrypted packages to your Amazon S3 bucket using resumable uploads, parallel copy, and enabling S3’s server-side AES256 encryption by default. 
 
 ================================
