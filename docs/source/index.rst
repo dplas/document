@@ -116,6 +116,34 @@ Each DASH or HLS packaging process requests the creation of new SKM Key Object p
   - CORS is configured restricting access to your player's domain.
   - AWS CloudFront (CF) is configured for Web delivery, (optional) CNAME and SSL SNI, S3 bucket restrictions and Origin Access Identity, Cache Behaviour policies and Geo restriction policies.  
 
+
+                
+ ================================
+Ingest and DRM packaging process
+================================
+
+We use Bento4, a C++ class library and tools designed to read and write ISO-MP4 files. This format is defined in international specifications ISO/IEC 14496-12, 14496-14 and 14496-15. The format is a derivative of the Apple Quicktime file format.
+
+MPEG DASH with fragmented MP4 files, as defined in the international specification ISO/IEC 23009-1
+MPEG Common Encryption (CENC) as specified in the international specification ISO/IEC 23001-7
+
+Supports multiple DRM systems that are compatible with MP4-formatted content (leveraging CENC Common Encryption), such as Marlin, PlayReady, Widevine and FairPlay.
+Support for a wide range of codecs, including H.264 (AVC), H.265 (HEVC), AAC, AC3 and eAC3 (Dolby Digital), DTS, ALAC.
+
+1.	We provide SFTP account details to upload source/mezzanine content to our packagers, including your metadata, your transcoding configuration and AWS credentials in a JSON file. This file contains supplied packaging directives (eg resolutions for multi-bitrates, info on multi-language support in audio tracks etc).
+2.	We transcode source to AVC and HEVC renditions based on the JSON configuration file. MP4 (H.264) files are converted to HEVC (H.265), encoded using MulticoreWare X.265 libraries.
+3.	The H.264 and H.265 files are then fragmented. For existing Microsoft Smooth ISMV and ISMA input files, these are refragmented into compliant fragmented MP4 files.
+4.	Packaging 
+ I.	Convert MP4 files to an MPEG DASH presentation, consisting of an initial XML manfifest, called the Media Presentation Document (MPD for short), which describes media segments that form a complete presentation. Along with a number of attributes, the MPD allows the MPEG DASH player to compute the URL of each segment, to download it and render it.
+ II.	Convert MP4 files to an HLS (HTTP Live Streaming) presentation, including the generation of the segments and .m3u8 playlist as well as AES-128 and SAMPLE-AES (for Fairplay DRM) encryption.
+
+Encryption
+Prior to adaptive presentation generation, the packager requests a new Key Object from ExpressPlay SKM API that creates unique cryptographic keys in the cloud for use in the packaging for each adaptive asset presentation. 
+The fragmented MP4 files are then converted to DASH and HLS presentations, encrypted with Common Encryption mode (CENC). Widevine, PlayReady and Marlin encryption keys are embedded in DASH manifests, and FairPlay DRM in HLS manifests. 
+
+Amazon S3 (origin) upload
+We transfer encrypted packages to your Amazon S3 bucket using resumable uploads, parallel copy, and enabling S3’s server-side AES256 encryption by default. 
+
 ================================
  HTML5 Player
 ================================
@@ -142,6 +170,5 @@ The following player code snippet is representative of the rights managed data d
 widevine or playready             : 
 
                     LA_URL              : <ExpressPlay Token URI>/?ExpressPlayToken=AQAAAAbTKGIAAABQK2Nll44xo95DwyFp9Rcb1snIRwiJaLINE4WSg-Je1MaSMRF6QIx2lV_bPX5qY77Hu2V5xaWYL-SqBuZyR93TKW6tf1piINl2zVryFdAL0ZfJIGjepZb1kTFb6oEB0YDpGgVFGA
-                
- 
+
 
