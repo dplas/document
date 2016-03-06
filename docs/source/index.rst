@@ -37,7 +37,7 @@ ExpressPlay is a cloud-based DRM service provider for content protection across 
 
 The following adaptive bit rate streams are supported by a single HTML5 Javascript player installation, Bitdash 4.0+. 
 
-.. MPEG-DASH:: MPEG-DASH.
+.. Note:: MPEG-DASH.
 - DESKTOP MPEG-DASH
 
   + Protected with Widevine Modular, Microsoft PlayReady, Fairplay, and Marlin DRM
@@ -62,7 +62,7 @@ The following adaptive bit rate streams are supported by a single HTML5 Javascri
 
     - Firefox (38+) on Windows
     
-.. admonitionS:: Apple HLS
+.. admonition:: Apple HLS
 - DESKTOP HLS
 
   + Protected with AES-128 encryption and Widevine DRM
