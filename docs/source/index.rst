@@ -83,21 +83,6 @@ The following adaptive bit rate streams are supported by a single HTML5 Javascri
 
 ---------
 
-+------------------------+------------+----------+----------+
-| Header row, column 1   | Header 2   | Header 3 | Header 4 |
-| (header rows optional) |            |          |          |
-+========================+============+==========+==========+
-| body row 1, column 1   | column 2   | column 3 | column 4 |
-+------------------------+------------+----------+----------+
-| body row 2             | Cells may span columns.          |
-+------------------------+------------+---------------------+
-| body row 3             | Cells may  | - Table cells       |
-+------------------------+ span rows. | - contain           |
-| body row 4             |            | - body elements.    |
-+------------------------+------------+----------+----------+
-| body row 5             | Cells may also be     |          |
-|                        | empty: ``-->``        |          |
-+------------------------+-----------------------+----------+
 
 --------------------------------
  MPEG-DASH
@@ -160,9 +145,9 @@ Support for a wide range of codecs, including H.264 (AVC), H.265 (HEVC), AAC, AC
    A figure is an image with a caption and/or a legend:
 
    +------------+-----------------------------------------------+
-   | re         | Revised, revisited, based on 're' module.     |
+   | MPEG-DASH  | Google Chrome 35+, Opera (31+), Android 4.3+  |
    +------------+-----------------------------------------------+
-   | Structured | Structure-enhanced text, structuredtext.      |
+   | HLS        | Structure-enhanced text, structuredtext.      |
    +------------+-----------------------------------------------+
    | Text       | Well it is, isn't it?                         |
    +------------+-----------------------------------------------+
