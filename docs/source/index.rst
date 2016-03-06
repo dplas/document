@@ -15,6 +15,13 @@ Our DRMCP content authoring workflow approach is tailored to use encrypt-once co
 .. contents:: Table of Contents
 .. section-numbering::
 
+.. Tip:: 15% if the service is good.
+
+.. WARNING:: Strong prose may provoke extreme mental exertion.
+Reader discretion is strongly advised.
+
+.. admonition:: And, by the way...
+
 ---------
 
 
