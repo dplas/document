@@ -62,7 +62,7 @@ The following adaptive bit rate streams are supported by a single HTML5 Javascri
 
     - Firefox (38+) on Windows
     
-.. admonition:: Apple HLS
+.. Note:: Apple HLS
 - DESKTOP HLS
 
   + Protected with AES-128 encryption and Widevine DRM
