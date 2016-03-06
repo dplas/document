@@ -24,7 +24,7 @@ DRM
 ==========================================================
 Depending on the appropriate playback protection device use-case, integrate with Intertrust's ExpressPlay and Secure Key Manager or AWS Cloudfront content protection mechanisms.
 
-For Adobe Primetime DRM (Firefox 43+ CDM support), the Bento4 CENC packager supports Primetime encryption for DASH, however neither the Bitdash player nor ExpressPlay support Primetime DRM at this time (in development).  
+For Adobe Primetime DRM (Firefox 43+ CDM support), the Bento4 CENC packager supports Primetime encryption for DASH, however neither the Bitdash player nor ExpressPlay support Primetime DRM at this time.  
 
 
 
@@ -151,9 +151,10 @@ Support for a wide range of codecs, including H.264 (AVC), H.265 (HEVC), AAC, AC
 
 
 .. sidebar:: Sidebar Title
-:subtitle: Optional Subtitle
-   This is a sidebar.  It is for text outside the flow of the main
-   text.
+:Widevine Modular: Optional Subtitle
+     - Google Chrome 35+
+    - Opera (31+)
+    - Android 4.3+
 
    .. rubric:: This is a rubric inside a sidebar
 
