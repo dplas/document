@@ -151,6 +151,20 @@ Support for a wide range of codecs, including H.264 (AVC), H.265 (HEVC), AAC, AC
 .. topic:: Topic Title
 
    This is a topic.
+   
+   
+ .. figure:: https://api.dataplastic.com/demo/packager_master_file.jpg
+:alt: reStructuredText, the markup syntax
+
+   A figure is an image with a caption and/or a legend:
+
+   +------------+-----------------------------------------------+
+   | re         | Revised, revisited, based on 're' module.     |
+   +------------+-----------------------------------------------+
+   | Structured | Structure-enhanced text, structuredtext.      |
+   +------------+-----------------------------------------------+
+   | Text       | Well it is, isn't it?                         |
+   +------------+-----------------------------------------------+
 
 
 1.	We provide SFTP account details to upload source/mezzanine content to our packagers, including your metadata, your transcoding configuration and AWS credentials in a JSON file. This file contains supplied packaging directives (eg resolutions for multi-bitrates, info on multi-language support in audio tracks etc).
