@@ -151,22 +151,7 @@ Supports multiple DRM systems that are compatible with MP4-formatted content (le
 Support for a wide range of codecs, including H.264 (AVC), H.265 (HEVC), AAC, AC3 and eAC3 (Dolby Digital), DTS, ALAC.
 
 
-.. sidebar:: Sidebar Title
-:subtitle: Optional Subtitle
 
-   This is a sidebar.  It is for text outside the flow of the main
-   text.
-
-   .. rubric:: This is a rubric inside a sidebar
-
-   Sidebars often appears beside the main text with a border and
-   background color.
-
-.. topic:: Topic Title
-
-   This is a topic.
-
-.. rubric:: This is a rubric
    
    
  .. figure:: https://api.dataplastic.com/demo/package_master_file.jpg
