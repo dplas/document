@@ -140,6 +140,19 @@ Support for a wide range of codecs, including H.264 (AVC), H.265 (HEVC), AAC, AC
 
 .. sidebar:: Sidebar Title
 :subtitle: Optional Subtitle
+   This is a sidebar.  It is for text outside the flow of the main
+   text.
+
+   .. rubric:: This is a rubric inside a sidebar
+
+   Sidebars often appears beside the main text with a border and
+   background color.
+
+.. topic:: Topic Title
+
+   This is a topic.
+
+.. rubric:: This is a rubric
 
 1.	We provide SFTP account details to upload source/mezzanine content to our packagers, including your metadata, your transcoding configuration and AWS credentials in a JSON file. This file contains supplied packaging directives (eg resolutions for multi-bitrates, info on multi-language support in audio tracks etc).
 2.	We transcode source to AVC and HEVC renditions based on the JSON configuration file. MP4 (H.264) files are converted to HEVC (H.265), encoded using MulticoreWare X.265 libraries.
