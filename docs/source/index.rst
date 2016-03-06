@@ -151,10 +151,8 @@ Support for a wide range of codecs, including H.264 (AVC), H.265 (HEVC), AAC, AC
 
 
 .. sidebar:: Sidebar Title
-:Widevine Modular: Optional Subtitle
-     - Google Chrome 35+
-    - Opera (31+)
-    - Android 4.3+
+:subtitle: Optional Subtitle
+ 
 
    .. rubric:: This is a rubric inside a sidebar
 
