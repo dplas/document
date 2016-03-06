@@ -17,7 +17,27 @@ Our DRMCP content authoring workflow approach is tailored to use encrypt-once co
 
 .. Tip:: 15% if the service is good.
 
-.. WARNING:: Strong prose may provoke extreme mental exertion.
+.. WARNING:: Strong prose may provoke extreme mental exertion.   + Protected with Widevine Modular, Microsoft PlayReady, Fairplay, and Marlin DRM
+  * Native Google Widevine HTML5 MSE Browser Support
+
+    - Google Chrome 35+
+    - Opera (31+)
+    - Android 4.3+
+   
+    
+  * Native Microsoft PlayReady HTML5 MSE Browser Support
+
+    - Internet Explorer (11+ on Windows 8.1+)
+    - Microsoft Edge (Windows 10+) 
+ 
+   
+  * Native Apple FairPlay HTML5 MSE Browser Support
+
+    - Safari 8+ on Mac OSX.
+    
+  * Native Adobe Primetime HTML5 MSE Browser Support [Coming Soon]
+
+    - Firefox (38+) on Windows
 Reader discretion is strongly advised.
 
 .. admonition:: And, by the way...
