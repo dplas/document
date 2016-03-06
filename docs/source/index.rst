@@ -152,7 +152,9 @@ Support for a wide range of codecs, including H.264 (AVC), H.265 (HEVC), AAC, AC
 
 .. sidebar:: Sidebar Title
 :subtitle: Optional Subtitle
- 
+
+   This is a sidebar.  It is for text outside the flow of the main
+   text.
 
    .. rubric:: This is a rubric inside a sidebar
 
@@ -162,6 +164,8 @@ Support for a wide range of codecs, including H.264 (AVC), H.265 (HEVC), AAC, AC
 .. topic:: Topic Title
 
    This is a topic.
+
+.. rubric:: This is a rubric
    
    
  .. figure:: https://api.dataplastic.com/demo/package_master_file.jpg
