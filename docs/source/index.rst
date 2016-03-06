@@ -15,12 +15,7 @@ Our DRMCP content authoring workflow approach is tailored to use encrypt-once co
 .. contents:: Table of Contents
 .. section-numbering::
 
-.. Tip:: 15% if the service is good.
 
-.. WARNING:: Strong prose may provoke extreme mental exertion.  
-Reader discretion is strongly advised.
-
-.. admonition:: And, by the way...
 
 ---------
 
@@ -42,7 +37,7 @@ ExpressPlay is a cloud-based DRM service provider for content protection across 
 
 The following adaptive bit rate streams are supported by a single HTML5 Javascript player installation, Bitdash 4.0+. 
 
-.. Tip:: MPEG-DASH.
+.. MPEG-DASH:: MPEG-DASH.
 - DESKTOP MPEG-DASH
 
   + Protected with Widevine Modular, Microsoft PlayReady, Fairplay, and Marlin DRM
@@ -67,7 +62,7 @@ The following adaptive bit rate streams are supported by a single HTML5 Javascri
 
     - Firefox (38+) on Windows
     
- .. Tip:: Apple HLS
+.. Apple HLS:: Apple HLS
 - DESKTOP HLS
 
   + Protected with AES-128 encryption and Widevine DRM
