@@ -130,6 +130,10 @@ MPEG Common Encryption (CENC) as specified in the international specification IS
 Supports multiple DRM systems that are compatible with MP4-formatted content (leveraging CENC Common Encryption), such as Marlin, PlayReady, Widevine and FairPlay.
 Support for a wide range of codecs, including H.264 (AVC), H.265 (HEVC), AAC, AC3 and eAC3 (Dolby Digital), DTS, ALAC.
 
+
+.. sidebar:: Sidebar Title
+:subtitle: Optional Subtitle
+
 1.	We provide SFTP account details to upload source/mezzanine content to our packagers, including your metadata, your transcoding configuration and AWS credentials in a JSON file. This file contains supplied packaging directives (eg resolutions for multi-bitrates, info on multi-language support in audio tracks etc).
 2.	We transcode source to AVC and HEVC renditions based on the JSON configuration file. MP4 (H.264) files are converted to HEVC (H.265), encoded using MulticoreWare X.265 libraries.
 3.	The H.264 and H.265 files are then fragmented. For existing Microsoft Smooth ISMV and ISMA input files, these are refragmented into compliant fragmented MP4 files.
@@ -140,7 +144,7 @@ Support for a wide range of codecs, including H.264 (AVC), H.265 (HEVC), AAC, AC
 Prior to adaptive presentation generation, the packager requests a new Key Object from ExpressPlay SKM API that creates unique cryptographic keys in the cloud for use in the packaging for each adaptive asset presentation. 
 The fragmented MP4 files are then converted to DASH and HLS presentations, encrypted with Common Encryption mode (CENC). Widevine, PlayReady and Marlin encryption keys are embedded in DASH manifests, and FairPlay DRM in HLS manifests. 
 
-We transfer encrypted packages to your Amazon S3 bucket using resumable uploads, parallel copy, and enabling S3’s server-side AES256 encryption by default. 
+5. We transfer encrypted packages to your Amazon S3 bucket using AWS Signature Version 4 API signing process, enabling S3’s server-side AES256 encryption by default. 
 
 ================================
  HTML5 Player
