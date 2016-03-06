@@ -153,7 +153,7 @@ Support for a wide range of codecs, including H.264 (AVC), H.265 (HEVC), AAC, AC
    This is a topic.
    
    
- .. figure:: https://api.dataplastic.com/demo/packager_master_file.jpg
+ .. figure:: https://api.dataplastic.com/demo/package_master_file.jpg
 :alt: reStructuredText, the markup syntax
 
    A figure is an image with a caption and/or a legend:
